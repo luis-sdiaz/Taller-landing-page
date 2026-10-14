@@ -30,7 +30,7 @@ function HeroSection() {
   return <section className="hero" aria-labelledby="hero-title">
     <Image src="/images/hero-shared-pizza.jpg" alt="Friends sharing a freshly baked pizza" fill priority sizes="(max-width: 760px) 100vw, 1060px" />
     <span className="hero-tape" aria-hidden="true" />
-    <div className="hero-panel"><h1 id="hero-title">FOR DELICIOUS,<br />MADE-FROM<br />SCRATCH PIZZAS</h1><p>Mixed fresh, stretched by hand and baked for every order.</p></div>
+    <div className="hero-panel"><h1 id="hero-title">FOR DELICIOUS,<br />MADE-FROM<br />SCRATCH PIZZAS</h1><p>Made with love. Baked fresh to order.</p></div>
     <a className="pill hero-cta" href="#order">Order Online</a>
   </section>;
 }
